@@ -1,21 +1,26 @@
+<!DOCTYPE html>
 <html lang="ja">
 	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Aoi.Kagase Works</title>
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
 		<style>
+			@font-face {
+				font-family: 'Goldman';
+				src: url('./Goldman-Regular.woff2') format('woff2');
+			}
+			@font-face {
+				font-family: 'Yusei Magic';
+				src: url('./YuseiMagic-Regular.woff2') format('woff2');
+			}
+
 			.goldman-regular {
-				font-family: "Goldman", serif;
+				font-family: "Goldman", "Yusei Magic", serif;
 				font-weight: 400;
 				font-style: normal;
 			}
-			.goldman-bold {
-				font-family: "Goldman", serif;
-				font-weight: 700;
-				font-style: normal;
-			}
 			.container {
+				display: flex;
 				font-size:larger;
 				margin-top: 10px;
 				margin-left: 10px;
@@ -27,63 +32,122 @@
 			ul {
 				margin: 0;
 			}
+			.column {
+ 				float: left;
+				width: 50%;
+			}
+			/* Clear floats after the columns */
+			.row:after {
+				content: "";
+				display: table;
+				clear: both;
+			}
+			.table td {
+				border-bottom: 1px solid black;
+			}		
 		</style>
 	</head>
 	<body class="goldman-regular">
 		<div class="container">
-		<h3>SNS CONTACT</h3>
-		<ul type="square">
-			<li><a target="_blank" href="https://x.com/AoiKagase">X</a></li>
-			<li><a target="_blank" href="https://alone.aokaga.work/AoiKagase">Fediverse (MAIN)</a></li>
-			<li><a target="_blank" href="https://pawoo.net/@aoikagase">Fediverse (PAWOO)</a></li>
-			<li><a target="_blank" href="https://nemudaru.uk/@aoikagase">Fediverse (TOHU KINGDOM)</a></li>
-		</ul>
-		<br />
-		<h3>ACTIVITY</h3>
-		<ul type="square">
-			<li><h4>ILLUSTRATION</h4>
+			<div class="column">
+				<h3>SNS CONTACT</h3>
 				<ul type="square">
-					<li><a target="_blank" href="https://www.pixiv.net/users/220449">PIXIV</a></li>
+					<li><a target="_blank" href="https://x.com/AoiKagase">X</a></li>
+					<li><a target="_blank" href="https://alone.aokaga.work/AoiKagase">Fediverse (MAIN)</a></li>
+					<li><a target="_blank" href="https://pawoo.net/@aoikagase">Fediverse (PAWOO)</a></li>
+					<li><a target="_blank" href="https://nemudaru.uk/@aoikagase">Fediverse (TOHU KINGDOM)</a></li>
 				</ul>
-			</li>
-			<li><h4>VIDEO</h4>
+				<br />
+				<h3>ACTIVITY</h3>
 				<ul type="square">
-					<li><a target="_blank" href="https://www.youtube.com/@AoiKagase">YOUTUBE</a></li>
-					<li><a target="_blank" href="https://www.twitch.tv/aoikagase">TWITCH</a></li>
-					<li><a target="_blank" href="https://viditube.site/a/aoikagase/video-channels">PEER TUBE(VIDI TUBE)</a></li>
+					<li><h4>ILLUSTRATION</h4>
+						<ul type="square">
+							<li><a target="_blank" href="https://www.pixiv.net/users/220449">PIXIV</a></li>
+						</ul>
+					</li>
+					<li><h4>VIDEO</h4>
+						<ul type="square">
+							<li><a target="_blank" href="https://www.youtube.com/@AoiKagase">YOUTUBE</a></li>
+							<li><a target="_blank" href="https://www.twitch.tv/aoikagase">TWITCH</a></li>
+							<li><a target="_blank" href="https://viditube.site/a/aoikagase/video-channels">PEER TUBE(VIDI TUBE)</a></li>
+						</ul>
+					</li>
+					<li><h4>MUSIC</h4>
+						<ul type="square">
+							<li><a target="_blank" href="https://soundcloud.com/g7efcbysnvbr">SOUND CLOUD</a></li>
+						</ul>
+					</li>
+					<li><h4>PROGRAMMING</h4>
+						<ul type="square">
+							<li><a target="_blank" href="https://github.com/AoiKagase">GITHUB</a></li>
+							<li><a target="_blank" href="https://unityroom.com/users/9qnwx2fb6rpushl08gvd">UNITY ROOM</a></li>
+							<li><a target="_blank" href="https://forums.alliedmods.net/member.php?u=1687">ALLIEDMODDERS</a></li>
+							<li><a target="_blank" href="https://www.vector.co.jp/vpack/browse/person/an043659.html">VECTOR</a></li>
+						</ul>
+					</li>
+					<li><h4>GAME</h4>
+						<ul type="square">
+							<li><a target="_blank" href="https://steamcommunity.com/id/AoiKagase/">STEAM</a></li>
+						</ul>
+					</li>
 				</ul>
-			</li>
-			<li><h4>MUSIC</h4>
+				<br />
+				<h3>SERVICE</h3>
 				<ul type="square">
-					<li><a target="_blank" href="https://soundcloud.com/g7efcbysnvbr">SOUND CLOUD</a></li>
+					<li><a target="_blank" href="https://mcwiki.aokaga.work/">FOCALORUS-MC WIKI</a></li>			
+					<li><a target="_blank" href="https://relay-01.aokaga.work/">FEDIVERSE RELAY SERVER</a></li>			
 				</ul>
-			</li>
-			<li><h4>PROGRAMMING</h4>
+				<br />
+				<h3>ETC..</h3>
 				<ul type="square">
-					<li><a target="_blank" href="https://github.com/AoiKagase">GITHUB</a></li>
-					<li><a target="_blank" href="https://unityroom.com/users/9qnwx2fb6rpushl08gvd">UNITY ROOM</a></li>
-					<li><a target="_blank" href="https://forums.alliedmods.net/member.php?u=1687">ALLIEDMODDERS</a></li>
-					<li><a target="_blank" href="https://www.vector.co.jp/vpack/browse/person/an043659.html">VECTOR</a></li>
+					<li><a target="_blank" href="https://blog.aokaga.work">BLOG</a></li>
+					<li><a target="_blank" href="https://www.amazon.co.jp/registry/wishlist/30U0LF410WV1D/">AMAZON POTATO</a></li>
 				</ul>
-			</li>
-			<li><h4>GAME</h4>
-				<ul type="square">
-					<li><a target="_blank" href="https://steamcommunity.com/id/AoiKagase/">STEAM</a></li>
+			</div>
+			<div class="column">
+				<h3>ABOUT</h3>
+				<ul type="none">
+					<li>
+						<table class="table">
+							<tr>
+								<th>NAME</th>
+								<th>:</th>
+								<td>加賀瀬 葵（かがせ　あおい）</td>
+							</tr>
+							<tr>
+								<th></th>
+								<th></th>
+								<td>AoiKagase / Aoi.Kagase</td>
+							</tr>
+							<tr>
+								<th>HOME</th>
+								<th>:</th>
+								<td>JAPAN</td>
+							</tr>
+							<tr>
+								<th>BIRTHDAY</th>
+								<th>:</th>
+								<td>02.26</td>
+							</tr>
+							<tr>
+								<th>FAVORITE</th>
+								<th>:</th>
+								<td>DREAM WORLD</td>
+							</tr>
+							<tr>
+								<th>HOBBY</th>
+								<th>:</th>
+								<td>GAME, MANGA, ANIME, PROGRAMMING (MODDER)</td>
+							</tr>
+							<tr>
+								<th>PERSONALITY</th>
+								<th>:</th>
+								<td>CONTRARIAN</td>
+							</tr>
+						</table>		
+					</li>
 				</ul>
-			</li>
-		</ul>
-		<br />
-		<h3>SERVICE</h3>
-		<ul type="square">
-			<li><a target="_blank" href="https://mcwiki.aokaga.work/">FOCALORUS-MC WIKI</a></li>			
-			<li><a target="_blank" href="https://relay-01.aokaga.work/">FEDIVERSE RELAY SERVER</a></li>			
-		</ul>
-		<br />
-		<h3>ETC..</h3>
-		<ul type="square">
-			<li><a target="_blank" href="https://blog.aokaga.work">BLOG</a></li>
-			<li><a target="_blank" href="https://www.amazon.co.jp/registry/wishlist/30U0LF410WV1D/">AMAZON POTATO</a></li>
-		</ul>
+			</div>
 		</div>
 	</body>
 </html>
