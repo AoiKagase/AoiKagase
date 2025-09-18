@@ -36,7 +36,7 @@
 				<div style="text-align:right; float: right; font-size:9pt;">
 					Since 2025.02.07<br>
 					<?php include("dcount.php");
-					echo "Y:$yesterday T:$today\n"; ?>
+					$counter->echo_count("Y:{yesterday} T:{today}\n"); ?>
 				</div>
 			</td>
 		</tr>

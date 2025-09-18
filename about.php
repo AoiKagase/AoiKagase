@@ -54,68 +54,68 @@
 					</tr>
 					<tr>
 						<th></th>
-						<td></td>
+						<td class="colon"></td>
 						<td>AoiKagase / Aoi.Kagase</td>
 					</tr>
 					<tr>
 						<th>HOME</th>
-						<td>:</td>
+						<td class="colon">:</td>
 						<td>JAPAN</td>
 					</tr>
 					<tr>
 						<th>BIRTHDAY</th>
-						<td>:</td>
+						<td class="colon">:</td>
 						<td>02.26</td>
 					</tr>
 					<tr>
 						<th>FAVORITE</th>
-						<td>:</td>
+						<td class="colon">:</td>
 						<td>DREAM WORLD</td>
 					</tr>
 					<tr>
 						<th>HOBBY</th>
-						<td>:</th>
+						<td class="colon">:</td>
 						<td>GAME, MANGA, ANIME, PROGRAMMING (MODDER)</td>
 					</tr>
 					<tr>
 						<th>PERSONALITY</th>
-						<td>:</td>
+						<td class="colon">:</td>
 						<td>CONTRARIAN</td>
 					</tr>
 					<tr>
 						<th>PG SKILLS(bit)</th>
-						<td>:</td>
+						<td class="colon">:</td>
 						<td>PHP, VB6, C#, C/C++, COBOL, JAVA, PAWN</td>
 					</tr>
 					<tr>
 						<th></th>
-						<td></td>
+						<td class="colon"></td>
 						<td>&nbsp;</td>
 					</tr>
 					<tr>
 						<th>QUALIFICATIONS</th>
-						<td>:</td>
+						<td class="colon">:</td>
 						<td>日商簿記３級 <font size="1pt">100点</font>
 						</td>
 					</tr>
 					<tr>
 						<th></th>
-						<td></td>
+						<td class="colon"></td>
 						<td>国家資格 初級システムアドミニストレータ</td>
 					</tr>
 					<tr>
 						<th></th>
-						<td></td>
+						<td class="colon"></td>
 						<td>国家資格 基本情報技術者</td>
 					</tr>
 					<tr>
 						<th></th>
-						<td></td>
+						<td class="colon"></td>
 						<td>国家資格 ソフトウェア開発技術者</td>
 					</tr>
 					<tr>
 						<th></th>
-						<td></td>
+						<td class="colon"></td>
 						<td>
 							<div class="sm">文部科学省後援</div>
 							<div class="sm">ビジネス能力検定（B-Ken）３級</div>
@@ -123,7 +123,7 @@
 					</tr>
 					<tr>
 						<th></th>
-						<td></td>
+						<td class="colon"></td>
 						<td>
 							<div class="sm">文部科学省後援 情報検定（Ｊ検）</div>
 							<div class="sm">情報活用試験　２級</div>
@@ -131,7 +131,7 @@
 					</tr>
 					<tr>
 						<th></th>
-						<td></td>
+						<td class="colon"></td>
 						<td>
 							<div class="sm">文部科学省後援 情報検定（Ｊ検）</div>
 							<div class="sm">情報システム試験　基本スキル</div>
@@ -139,7 +139,7 @@
 					</tr>
 					<tr>
 						<th></th>
-						<td></td>
+						<td class="colon"></td>
 						<td>
 							<div class="sm">文部科学省後援 情報検定（Ｊ検）</div>
 							<div class="sm">情報システム試験　システムデザインスキル</div>
@@ -147,7 +147,7 @@
 					</tr>
 					<tr>
 						<th></th>
-						<td></td>
+						<td class="colon"></td>
 						<td>
 							<div class="sm">文部科学省後援 情報検定（Ｊ検）</div>
 							<div class="sm">情報システム試験　プログラマ認定</div>

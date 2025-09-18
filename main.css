@@ -36,6 +36,7 @@ td {
 	font-size: 9pt;
 	background-color: white;
 	vertical-align: top;
+	padding: 2em;
 }
 
 th.content {
@@ -319,8 +320,9 @@ td.menu {
 .table td.colon {
 	width: 10px;
 	text-align: center;
-	border: 0px;
-	border-bottom: 1px solid black;
+	border: 0px !important;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
 }
 
 sup {

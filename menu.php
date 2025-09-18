@@ -30,7 +30,7 @@
 								</a>
 								<ul>
 									<li>
-										<a target="_blank" href="https://x.com/AoiKagase">
+										<a target="_blank" href="https://www.pixiv.net/users/220449">
 											<img class="icon" src="img/icon-pixiv.svg" alt="Pixiv">
 											Pixiv
 										</a>
