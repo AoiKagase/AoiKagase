@@ -13,9 +13,10 @@
 			<link rel="shortcut icon" type="image/x-icon" href="">
 	-->
 	<title>Aoi.Kagase Works::index</title>
-	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="main.css?v=<?php echo filemtime('main.css'); ?>">
 	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-S5PLWYXGSR"></script>
+	<script async src=" https://www.googletagmanager.com/gtag/js?id=G-S5PLWYXGSR">
+	</script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
 

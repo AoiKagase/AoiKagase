@@ -2,7 +2,6 @@ body {
 	margin: 0px 0px 0px 0px;
 	font-family: Noto Sans JP, sans-serif;
 	font-size: 9pt;
-	border: solid 10px#999999;
 	background: url('images/003-002.gif') #E9E9E9;
 	background-size: cover;
 }
@@ -23,7 +22,7 @@ td.title {
 	border: solid 1px #000000;
 
 	font-size: 18pt;
-	padding: 4px;
+	padding: 0.5em;
 }
 
 th {
@@ -146,22 +145,22 @@ td.menu {
 	padding: 0 15px 10px 15px;
 	background: none;
 	font-weight: bold;
-	text-align: center;
+	text-align: left;
 }
 
-.linedrop .select a b {
+.linedrop .select a.start b {
 	display: block;
 	width: 60px;
 	padding: 0 15px 10px 15px;
 	background: url(images/blank_sepia.gif) right top no-repeat;
-	text-align: center;
+	text-align: left;
 }
 
-.linedrop .select a b.st1 {
+.linedrop .select a.start b.st1 {
 	width: 125px;
 }
 
-.linedrop .select a b.st2 {
+.linedrop .select a.start b.st2 {
 	min-width: 100px;
 	width: auto !important;
 	width: 100px;
@@ -288,11 +287,109 @@ td.menu {
 	line-height: 18px;
 }
 
+.menu-icon {
+	display: block;
+	width: 100%;
+	/* アイコンのスペースを確保したpadding-leftを設定する */
+	padding: 16px 16px 16px 40px;
+	position: relative;
+	background-color: #fff;
+
+	&::before {
+		content: "";
+		display: block;
+		width: 16px;
+		height: 16px;
+		position: absolute;
+		left: 16px;
+		/* top: 50%;と、transform: translateY(-50%) で上下中央に配置 */
+		top: 50%;
+		transform: translateY(-50%);
+		background-size: contain;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	&.pixiv::before {
+		background-image: url("img/icon-pixiv.svg");
+	}
+
+	&.youtube::before {
+		background-image: url("img/icon-yt.svg");
+	}
+
+	&.twitch::before {
+		background-image: url("img/icon-twitch.svg");
+	}
+
+	&.peertube::before {
+		background-image: url("img/icon-pt.svg");
+	}
+
+	&.soundcloud::before {
+		background-image: url("img/icon-soundcloud.svg");
+	}
+
+	&.github::before {
+		background-image: url("img/icon-github.svg");
+	}
+
+	&.unityroom::before {
+		background-image: url("img/icon-unityroom.png");
+	}
+
+	&.am::before {
+		background-image: url("img/icon-am.jpg");
+	}
+
+	&.vector::before {
+		background-image: url("img/icon-vector.ico");
+	}
+
+	&.steam::before {
+		background-image: url("img/icon-steam.svg");
+	}
+
+	&.twitter-x::before {
+		background-image: url("img/icon-x.svg");
+	}
+
+	&.iceshrimp-net::before {
+		background-image: url("img/icon-iceshrimp.png");
+	}
+
+	&.mastodon::before {
+		background-image: url("img/icon-mastodon.svg");
+	}
+
+	&.tohukingdom::before {
+		background-image: url("img/icon-misskey.png");
+	}
+
+	&>span {
+		padding-left: 32px !important;
+		padding-right: 0px !important;
+		width: 0px !important;
+	}
+
+	&.twitter-x>span {}
+
+	&.iceshrimp-net>span {
+		width: 180px !important;
+	}
+
+	&.mastodon>span {
+		width: 180px !important;
+	}
+}
+
 .layout_frame {
 	width: 800px;
 	border: none;
 	align-content: center;
 	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .table {
@@ -337,6 +434,7 @@ sup {
 
 footer {
 	margin: auto;
+	margin-bottom: 10px;
 	width: 800px;
 	font-size: 8pt;
 	color: #666666;

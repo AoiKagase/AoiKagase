@@ -68,6 +68,7 @@ class counter
 		'libwww',
 		'curl',
 		'wget',
+		'Better Stack Better Uptime Bot',
 	);
 
 	//---------設定ここまで------

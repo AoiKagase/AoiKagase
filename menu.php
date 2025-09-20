@@ -11,14 +11,12 @@
 						</a>
 					</li>
 					<li class="line">
-						<a href="/" class="start">
-							<a href="about.php">
-								<b class="st2">About</b>
-							</a>
+						<a href="about.php" class="start">
+							<b class="st2">About</b>
 						</a>
 					</li>
 					<li class="line">
-						<a href="/" class="start">
+						<a href="#" class="start">
 							<b class="st2">
 								Hobbies
 							</b>
@@ -26,13 +24,12 @@
 						<ul class="sub">
 							<li class="subline">
 								<a href="#">
-									ILLUSTRATION
+									Illustration
 								</a>
 								<ul>
 									<li>
-										<a target="_blank" href="https://www.pixiv.net/users/220449">
-											<img class="icon" src="img/icon-pixiv.svg" alt="Pixiv">
-											Pixiv
+										<a class="menu-icon pixiv" target="_blank" href="https://www.pixiv.net/users/220449" alt="Pixiv">
+											<span>Pixiv</span>
 										</a>
 									</li>
 								</ul>
@@ -43,21 +40,18 @@
 								</a>
 								<ul>
 									<li>
-										<a target="_blank" href="https://www.youtube.com/@AoiKagase">
-											<img class="icon" src="img/icon-yt.svg" alt="Youtube">
-											Youtube
+										<a class="menu-icon youtube" target="_blank" href="https://www.youtube.com/@AoiKagase">
+											<span>Youtube</span>
 										</a>
 									</li>
 									<li>
-										<a target="_blank" href="https://www.twitch.tv/aoikagase">
-											<img class="icon" src="img/icon-twitch.svg" alt="Twitch">
-											Twitch
+										<a class="menu-icon twitch" target="_blank" href="https://www.twitch.tv/aoikagase">
+											<span>Twitch</span>
 										</a>
 									</li>
 									<li>
-										<a target="_blank" href="https://viditube.site/a/aoikagase/video-channels">
-											<img class="icon" src="img/icon-pt.svg" alt="VidiTube (PeerTube)">
-											VidiTube (PeerTube)
+										<a class="menu-icon peertube" target="_blank" href="https://viditube.site/a/aoikagase/video-channels">
+											<span>VidiTube (PeerTube)</span>
 										</a>
 									</li>
 								</ul>
@@ -68,9 +62,8 @@
 								</a>
 								<ul>
 									<li>
-										<a target="_blank" href="https://soundcloud.com/g7efcbysnvbr">
-											<img class="icon" src="img/icon-soundcloud.svg" alt="SoundCloud">
-											SoundCloud
+										<a class="menu-icon soundcloud" target="_blank" href="https://soundcloud.com/g7efcbysnvbr">
+											<span>SoundCloud</span>
 										</a>
 									</li>
 								</ul>
@@ -81,27 +74,23 @@
 								</a>
 								<ul>
 									<li>
-										<a target="_blank" href="https://github.com/AoiKagase">
-											<img class="icon" src="img/icon-github.svg" alt="Github">
-											GitHub
+										<a class="menu-icon github" target="_blank" href="https://github.com/AoiKagase">
+											<span>GitHub</span>
 										</a>
 									</li>
 									<li>
-										<a target="_blank" href="https://unityroom.com/users/9qnwx2fb6rpushl08gvd">
-											<img class="icon" src="img/icon-unityroom.png" alt="UnityRoom">
-											UnityRoom
+										<a class="menu-icon unityroom" target="_blank" href="https://unityroom.com/users/9qnwx2fb6rpushl08gvd">
+											<span>UnityRoom</span>
 										</a>
 									</li>
 									<li>
-										<a target="_blank" href="https://forums.alliedmods.net/member.php?u=1687">
-											<img class="icon" src="img/icon-am.jpg" alt="AlliedModders">
-											AlliedModders
+										<a class="menu-icon am" target="_blank" href="https://forums.alliedmods.net/member.php?u=1687">
+											<span>AlliedModders</span>
 										</a>
 									</li>
 									<li>
-										<a target="_blank" href="https://www.vector.co.jp/vpack/browse/person/an043659.html">
-											<img class="icon" src="img/icon-vector.ico" alt="Vector">
-											Vector
+										<a class="menu-icon vector" target="_blank" href="https://www.vector.co.jp/vpack/browse/person/an043659.html">
+											<span>Vector</span>
 										</a>
 									</li>
 								</ul>
@@ -112,9 +101,8 @@
 								</a>
 								<ul>
 									<li>
-										<a target="_blank" href="https://steamcommunity.com/id/AoiKagase/">
-											<img class="icon" src="img/icon-steam.svg" alt="Steam">
-											Steam
+										<a class="menu-icon steam" target="_blank" href="https://steamcommunity.com/id/AoiKagase/">
+											<span>Steam</span>
 										</a>
 									</li>
 								</ul>
@@ -122,43 +110,36 @@
 						</ul>
 					</li>
 					<li class="line">
-						<a href="about.php">
+						<a href="#" class="start">
 							<b class="st2">
 								Contacts
 							</b>
 						</a>
 						<ul class="sub">
 							<li class="subline">
-								<a target="_blank" href="https://x.com/AoiKagase">
-									<img class="icon" src="img/icon-x.svg" alt="X">
-									X
+								<a class="menu-icon twitter-x" target="_blank" href="https://x.com/AoiKagase">
+									<span>X</span>
 								</a>
 							</li>
 							<li>
-								<a target="_blank" href="https://alone.aokaga.work/AoiKagase">
-									<img class="icon" src="img/icon-iceshrimp.png"
-										alt="Fediverse (Main/Iceshrimp.NET)">
-									Fediverse (Main/Iceshrimp.NET)
+								<a class="menu-icon iceshrimp-net" target="_blank" href="https://alone.aokaga.work/AoiKagase">
+									<span>Fediverse (Main/Iceshrimp.NET)</span>
 								</a>
 							</li>
 							<li>
-								<a target="_blank" href="https://pawoo.net/@aoikagase">
-									<img class="icon" src="img/icon-mastodon.svg"
-										alt="Fediverse (Pawoo/Mastodon)">
-									Fediverse (Pawoo/Mastodon)
+								<a class="menu-icon mastodon" target="_blank" href="https://pawoo.net/@aoikagase">
+									<span>Fediverse (Pawoo/Mastodon)</span>
 								</a>
 							</li>
 							<li>
-								<a target="_blank" href="https://nemudaru.uk/@aoikagase">
-									<img class="icon" src="img/icon-misskey.png"
-										alt="Fediverse (Tohu Kingdom/Misskey)">
-									Fediverse (Tohu Kingdom/Misskey)
+								<a class="menu-icon tohukingdom" target="_blank" href="https://nemudaru.uk/@aoikagase">
+									<span>Fediverse (Tohu Kingdom/Misskey)</span>
 								</a>
 							</li>
 						</ul>
 					</li>
 					<li class="line">
-						<a href="links.php">
+						<a href="links.php" class="start">
 							<b class="st2">Links</b>
 						</a>
 					</li>
