@@ -82,8 +82,13 @@
 	<hr size="1">
 	<br>
 	<footer>
-		当サイトの内容を無断で転載・複製することを禁じます。<br>
-		&copy; 2025 Aoi.Kagase All rights reserved.
+		<div align="left" style="float:left;">
+			<a href="https://sites.google.com/view/happy-busy/" target="_blank"><img src="/img/notime.png"/></a>
+		</div>
+		<div align="right">
+			当サイトの内容を無断で転載・複製することを禁じます。<br>
+			&copy; 2025 Aoi.Kagase All rights reserved.
+		</div>
 	</footer>
 </body>
 

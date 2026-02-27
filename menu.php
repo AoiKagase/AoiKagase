@@ -12,8 +12,8 @@
 					</li>
 					<li class="line">
 						<a href="about.php" class="start">
-							<b class="st2">About</b>
-						</a>
+								<b class="st2">About</b>
+							</a>
 					</li>
 					<li class="line">
 						<a href="#" class="start">

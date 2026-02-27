@@ -55,6 +55,10 @@ a {
 
 }
 
+table.self_introduction > td {
+	vertical-align:bottom;
+}
+
 #link {
 	filter: dropshadow(color=silver, offx=1, offy=1, positive=true);
 	width: 100%;
@@ -372,14 +376,16 @@ td.menu {
 		width: 0px !important;
 	}
 
-	&.twitter-x>span {}
+	&.twitter-x>span {
+		width: 0px !important;
+	}
 
 	&.iceshrimp-net>span {
-		width: 180px !important;
+		width: 165px !important;
 	}
 
 	&.mastodon>span {
-		width: 180px !important;
+		width: 160px !important;
 	}
 }
 
@@ -445,7 +451,7 @@ footer {
 	max-width: 100%;
 	margin-bottom: 10px;
 	border-radius: 5px;
-	box-shadow: 0 7px 15px -5px rgb(0 0 0 / 5%);
+	box-shadow: 0 7px 15px -5px rgb(0 0 0 / 100%);
 	background-color: #fff;
 }
 

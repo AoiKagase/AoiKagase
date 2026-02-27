@@ -47,8 +47,12 @@
 		</tr>
 		<tr>
 			<td colspan="2">
-				<span class="sm">名前はSNSから 敬称略</span>
+				<span class="sm">
+					名前はSNSから 敬称略<br>
+					無断リンクなので何か言われたら消します
+				</span>
 				<ul type="square">
+					<li><a target="_blank" href="https://portfolio.3211.jp">@3211</a></li>
 					<li><a target="_blank" href="https://www.kur0den.net">@^Kur0den\d{4}$</a></li>
 					<li><a target="_blank" href="https://dg.ariestechgarden.com/Home">@相戸ゆづな</a></li>
 					<li><a target="_blank" href="https://renem2185.github.io">@村雲るね</a></li>
@@ -71,6 +75,10 @@
 					<li><a target="_blank" href="https://rtdat.com">@snake21jpn</a></li>
 					<li><a target="_blank" href="https://riq0h.jp">@Rikuoh Tsujitani</a></li>
 					<li><a target="_blank" href="https://eth0.jp">@しろは</a></li>
+					<li><a target="_blank" href="https://shinanomai.xyz/">@信濃眞伊</a></li>
+					<li><a target="_blank" href="https://tomadoi.com">@****</a></li>
+					<li><a target="_blank" href="https://dkl.jp">@デジタルかめランド(Shorty)</a></li>
+					<li><a target="_blank" href="https://roi.3.5mbps.net">@敷島ロイ</a></li>
 				</ul>
 			</td>
 		</tr>

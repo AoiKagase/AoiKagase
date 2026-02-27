@@ -47,7 +47,7 @@
 		</tr>
 		<tr>
 			<td colspan="2">
-				<table class="table">
+				<table class="table self_introduction">
 					<tr>
 						<th>NAME</th>
 						<td class="colon">:</td>
