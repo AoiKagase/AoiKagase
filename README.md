@@ -16,6 +16,7 @@
 - **Amxx-Laser-TripMine-Entity** — AmxModX用プラグイン。CS1.6・海外ゾンビMODサーバーにて大人気
 - **Amxx-Module-Redis** — AmxModXにてプラグインからRedisサーバーへアクセス可能にするモジュール
 - **KoboMangaScraper** — RakutenKobo漫画新巻予約支援
+- **MediaPlayer-X-Ark** — Windows用シンプル型メディアプレイヤー
 - **X-Ark_MIDI_ENGINE** — MIDI+SF2/DLSからPCMデータ作成 
 - **FMOD-PLUGINS** — FMOD 用追加コーデックプラグイン集  
 
