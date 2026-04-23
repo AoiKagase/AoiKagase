@@ -35,11 +35,16 @@
 
 ---
 <a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="left" src="https://github-readme-stats.vercel.app/api?username=AoiKagase&count_private=true&show_icons=true" />
+  <img align="left" src="https://github-readme-stats.vercel.app/api?username=AoiKagase&count_private=true&show_icons=true&locale=ja&theme=dark&" />
 </a>
 <a href="https://github.com/anuraghazra/github-readme-stats">
   <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AoiKagase&count_private=true&layout=compact" />
 </a>
+<a href="https://git.io/streak-stats">
+  <img src="https://streak-stats.demolab.com?user=AoiKagase&theme=dark&border_radius=50&locale=ja" alt="GitHub Streak" />
+</a>
+<img style="border: solid 2px #ffffff" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AoiKagase&theme=apprentice" alt="GitHub Streak" />
+
 
 
 <!--
